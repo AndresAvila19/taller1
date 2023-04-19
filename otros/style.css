@@ -1,0 +1,72 @@
+h2{
+    background-color: aqua;
+}
+
+p{
+    background-color: rgb(23, 175, 230);
+}
+
+/*este va a ser un selector id
+
+*/
+#slec-id{
+    color: aquamarine;
+}
+
+/*Este es un selector de class
+*/
+
+/* selectores avanzados
+slectores de hijos directos*/
+
+.sele-hijo-des >li{
+    background-color: aquamarine;
+
+}
+
+/* Este es un selector de descendia */
+
+.sele-des b{
+    background-color: aquamarine;
+}
+
+/* Esto es un selector con hermano*/
+
+.sele-hermano ~ li{
+    color: blue;
+}
+
+/* hermanos adyacentes*/
+
+.her-adya +li{
+    color: blueviolet;
+}
+
+/* Selectores de atributos*/
+
+.selec-guion-gene [target]{
+    color: rgb(255, 0, 208);
+}
+
+.selec-guion-gene [target="_top"]{
+    color: chartreuse;
+}
+
+.selec-guion-gene[href*="fil"]{
+    color: burlywood;
+}
+
+.selec-guion-gene[href^="https:"]{
+    color: rgba(70, 202, 43, 0.692);
+}
+
+.selec-guion-gene[href$="morir"]{
+    color: rgba(101, 94, 227, 0.692);
+}
+
+.selec-guion-gene b[class~="sele-"]{
+    color: rgba(101, 94, 227, 0.692);
+}
+.selec-guion-gene b[class|="sele"]{
+    color: rgba(101, 94, 227, 0.692);
+}
